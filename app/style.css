@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto',sans-serif;
+}
+div#header{
+    width: 100%;
+    background-color: wheat;
+    position: fixed;
+    z-index: 1000;
+    background: #333333;
+}
+div#header_container{
+    width: 40%;
+    height: 40px;
+    margin: 0 auto;
+    text-align:  center;
+}
+img#header_icon{
+    height: 100%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: 30%;
+}
+h1{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+}
+img#menuIcon{
+    width: 100%;
+    height: 100%;
+}
+div#menuDiv{
+    float: left;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    visibility: hidden;
+}
+div#rendezes_talalatszam{
+    float: right;
+    height: 60px;
+    width: calc(94% - 304px);
+    margin: 50px 2% 5px 1%;
+    border-color: #018e0e;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #e6ffdb;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+div#rendezes_talalatszamContainer{
+    width: 600px;
+    display: flex;
+}
+div#rendezes{
+    margin-left: 20px;
+}
+p.rendezes-talalat{
+    margin: 0;
+}
+div#talalatszam{
+
+}
+select.talalatSelect{
+    margin-left: 0;
+}
+div#szurocontainer{
+    z-index: -1;
+    float: left;
+    width: 300px;
+    margin: 50px 1% 10px 2%;
+    background-color: #e4e4e4;
+    border: solid;
+    border-color: #018e0e;
+    border-width: 1px;
+    border-radius: 10px;
+}
+div#szuroCim{
+    margin: 0 auto 50px auto;
+    position: relative;
+    text-align: center;
+}
+div.szuroCimek{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border-top: solid;
+    border-top-color: #bbbbbb;
+    border-top-width: 2px;
+    color: black;
+}
+input#nevMezo{
+    width: 258px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    height: 25px;
+    border-width: 1px;
+    border-color: #018e0e;
+}
+
+select{
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    width: 262px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #018e0e;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 12px;
+}
+div#szurocontainer p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.minErtek{
+    font-size: 11px;
+    float: left;
+    display: inline-block;
+}
+.maxErtek{
+    font-size: 11px;
+    float: right;
+    display: inline-block;
+}
+div.slider{
+    display: inline-block;
+    width: 280px;
+    height: 20px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slider input {
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+    transform-origin: 75px 75px;
+    color: #018e0e;
+}
+p.minmax{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+input.range{
+    width: 100%;
+    color: #018e0e;
+}
+span#vagoszelessegCurrentValue{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+span#hengerurtartalomCurrentValue{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+span#tomegCurrentValue{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+div#keresesButtonContainer{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+button#keresesButton{
+    margin: 0 auto;
+    width: 80%;
+    height: 99%;
+    padding: 5px 0;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #018e0e;
+    background-color: #018e0e;
+    color: #333;
+    font-size: 18px;
+    font-weight: 800;
+}
+button#keresesButton:hover{
+    color: #bdbdbd;
+    width: 82%;
+    height: 100%;
+}
+div#listaContainer{
+    float: right;
+    width: calc(94% - 302px);
+    margin: 5px 2% 10px 1%;
+}
+div.funyiroListaElem{
+    height: 190px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #e6ffdb;
+    border-style: solid;
+    border-width: 2.5px;
+    border-radius: 10px;
+    border-color: #018e0e
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+div.elemCim{
+    width: calc(100%- 10px);
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Calibri;
+    display: block;
+    margin: 10px 5px 5px 20px;
+}
+div.elemKep{
+    height: 140px;
+    width: 25%;
+    background-color: white;
+    vertical-align: middle;
+    display: flex;
+    float: left;
+    border-radius: 10px;
+    margin: 0 5px 5px 20px;
+}
+div.elemAdatok{
+    height: 140px;
+    width: 70%;
+    position: relative;
+    float: left;
+}
+p.param1{
+    font-weight: bold;
+    margin: 0;
+    display:inline-block;
+    vertical-align: middle;
+}
+p.param2 {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.elemAdatok li{
+    height: calc(140px/5);
+}
+li.funyiroListaElem{
+    list-style: none;
+    height: 190px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ul{
+    width: 98%;
+    height: 95%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+.ng-hide {
+    height: 0;
+    width: 0;
+    background-color: transparent;
+    top:-200px;
+    left: 200px;
+}
+img.funyiroKep{
+    max-height: 75px;
+    margin: auto;
+    display: block;
+    vertical-align: middle;
+}
+footer{
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    float: left;
+    text-align: center;
+    background-color: #333333;
+    color: #bdbdbd;
+}
+footer a{
+    color: #8d59bd;
+}
+    /* reszletekView */
+div#header.ng-scope{
+    width: 100%;
+    background-color: wheat;
+    position: fixed;
+    z-index: 1000;
+    background: #333333;
+    top: 0px;
+}
+div#termekDiv.ng-scope{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 940px) {
+    div#menuDiv {
+        visibility: visible;
+        padding: 0;
+        height: 100%;
+    }
+
+    img#menuIcon {
+        height: 36px;
+        margin-top: 7px;
+        margin-bottom: auto;
+    }
+
+    input#menuCheck {
+        position: absolute;
+        height: 47px;
+        width: 60px;
+        top: -2px;
+        left: -5px;
+        opacity: 0;
+    }
+
+    div#header_container {
+        float: left;
+        width: calc(100% - 60px);
+        height: 47.5px;
+        margin: 0;
+        padding: 0;
+    }
+
+    a#backToHome {
+        width: 100%;
+        height: 100%;
+        display: block;
+        vertical-align: middle;
+    }
+
+    div#header_iconDiv {
+        left: calc(100% - 40px);
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        padding: 0;
+        margin: 0;
+    }
+
+    img#header_icon {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 30px;
+        position: absolute;
+        left: 22%;
+        margin-top: 5px;
+    }
+
+    div#szurocontainer {
+        z-index: 2000;
+        position: absolute;
+        top: 47.5px;
+        margin: 0;
+        left: 0px;
+        border-style: none;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    select {
+        width: 95%;
+    }
+
+    input#nevMezo {
+        width: 95%;
+    }
+
+    div.slider {
+        width: 95%;
+    }
+
+    div#rendezes_talalatszam {
+        float: left;
+        width: 100%;
+        height: 105px;
+        margin: 47.5px 0px 1px 0px;
+        border-style: none;
+        border-radius: 0px;
+        background-color: #bdbdbd;
+    }
+
+    div#rendezes_talalatszamContainer {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    div#rendezes {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    select.talalatSelect {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    p.rendezes-talalat {
+        margin-left: 5%;
+    }
+
+    div#talalatszam {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    div#listaContainer {
+        float: left;
+        width: 300px;
+        position: absolute;
+        top: 152px;
+        margin: 0px;
+        border-style: none;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    div.funyiroListaElem {
+        border-style: none;
+        border-radius: 0px;
+        width: 100%;
+        border-top: solid;
+        border-top-color: #018e0e;
+        border-top-width: 2px;
+        border-bottom: solid;
+        border-bottom-color: #018e0e;
+        border-bottom-width: 2px;
+        margin: 0 0 2px 0;
+    }
+
+    li.funyiroListaElem {
+        margin: 0;
+    }
+
+    div.elemAdatok {
+        width: calc(65% - 10px);
+        float: right;
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    li.elemAdatokListaElem.ng-binding {
+        height: 24px;
+    }
+
+    li.elemAdatokListaElem {
+        display: block;
+        height: 24px;
+    }
+}
