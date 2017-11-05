@@ -10,9 +10,9 @@ div#header{
     z-index: 1000;
     background: #333333;
 }
-div#header_container{
-    width: 40%;
-    height: 40px;
+div.header_container{
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     text-align:  center;
 }
@@ -249,6 +249,35 @@ div.elemAdatok{
     position: relative;
     float: left;
 }
+div.reszletekKep{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    vertical-align: middle;
+    display: flex;
+    float: left;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+div.reszletekAdatok{
+    height: 200px;
+    width: calc(80% - 200px);
+    position: relative;
+    float: left;
+    margin-left: 5%;
+}
+div#leiras{
+    width: 80%;
+    border-top: solid;
+    border-top-width: 4px;
+    border-top-color: #bdbdbd;
+    float:left;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding-top: 2.5%;
+    font-weight: bold;
+    font-style: italic;
+}
 p.param1{
     font-weight: bold;
     margin: 0;
@@ -262,6 +291,9 @@ p.param2 {
 }
 div.elemAdatok li{
     height: calc(140px/5);
+}
+div.reszletekAdatok li{
+    height: calc(200px/5);
 }
 li.funyiroListaElem{
     list-style: none;
@@ -289,6 +321,12 @@ img.funyiroKep{
     display: block;
     vertical-align: middle;
 }
+img.funyiroReszletekKep{
+    max-height: 200px;
+    margin: auto;
+    display: block;
+    vertical-align: middle;
+}
 footer{
     width: 100%;
     padding: 0;
@@ -310,9 +348,14 @@ div#header.ng-scope{
     background: #333333;
     top: 0px;
 }
-div#termekDiv.ng-scope{
-    margin-top: 50px;
+button#visszaButton{
+    height: 37px;
+float: left;
 }
+div#termekDiv{
+    margin-top: 8%;
+}
+
 
 @media screen and (max-width: 940px) {
     div#menuDiv {

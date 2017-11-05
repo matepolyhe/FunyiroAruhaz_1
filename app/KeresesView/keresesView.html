@@ -2,7 +2,7 @@
         <div id="menuDiv">
             <img id="menuIcon" src="Images/menu_icon.png" ng-click="ShowHide()">
         </div>
-        <div id="header_container">
+        <div class="header_container">
             <a id="backToHome" href="fooldal.html">
                 <div id="header_iconDiv">
                     <img id="header_icon" src="Images/Header_icon.png">
@@ -98,29 +98,33 @@
         </button>
     </div>
 </div>
-<div id="listaContainer" ng-controller="keresesViewController">
-    <ul style="width: 100%">
-        <li ng-repeat="funyiro in funyirok" class="funyiroListaElem">
-            <div class="funyiroListaElem">
-                <div class="elemCim" ng-click=""><a href="#!reszletekView">{{funyiro.megnevezes}}</a></div>
-                <a href="">
-                    <div class="elemKep"><img class="funyiroKep" src="{{funyiro.image.src}}" width=""></div>
-                </a>
-                <div class="elemAdatok">
-                    <ul style="margin-left: 15%;">
-                        <li class="elemAdatokListaElem"><p class="param1">Márka:</p>
-                            <p class="param2">{{funyiro.marka}}</p></li>
-                        <li class="elemAdatokListaElem"><p class="param1">Típus:</p>
-                            <p class="param2">{{funyiro.type}}</p></li>
-                        <li class="elemAdatokListaElem"><p class="param1">Vágószélesség:</p>
-                            <p class="param2">{{funyiro.vagoszelesseg}} cm</p></li>
-                        <li class="elemAdatokListaElem">
-                            <p class="param1">Hengerűrtartalom:{{funyiro.cc}} ccm</p></li>
-                        <li class="elemAdatokListaElem"><p class="param1">Súly:</p>
-                            <p class="param2">{{funyiro.suly}} kg</p></li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-    </ul>
-</div>
+ <div id="listaContainer" ng-controller="keresesViewController">
+     <ul style="width: 100%">
+         <li ng-repeat="funyiro in funyirok" class="funyiroListaElem">
+             <div class="funyiroListaElem">
+                 <div class="elemCim"><a href="#!reszletekView" ng-click="changeFunyiro(funyiro)">{{funyiro.megnevezes}}</a></div>
+                 <a href="">
+                     <div class="elemKep"><img class="funyiroKep" src="{{funyiro.image.src}}" width=""></div>
+                 </a>
+                 <div class="elemAdatok">
+                     <ul style="margin-left: 15%;">
+                         <li class="elemAdatokListaElem"><p class="param1">Márka:</p>
+                             <p class="param2">{{funyiro.marka}}</p></li>
+                         <li class="elemAdatokListaElem"><p class="param1">Típus:</p>
+                             <p class="param2">{{funyiro.type}}</p></li>
+                         <li class="elemAdatokListaElem"><p class="param1">Vágószélesség:</p>
+                             <p class="param2">{{funyiro.vagoszelesseg}} cm</p></li>
+                         <li class="elemAdatokListaElem">
+                             <p class="param1">Hengerűrtartalom:{{funyiro.cc}} ccm</p></li>
+                         <li class="elemAdatokListaElem"><p class="param1">Súly:</p>
+                             <p class="param2">{{funyiro.suly}} kg</p></li>
+                     </ul>
+                 </div>
+             </div>
+         </li>
+     </ul>
+ </div>
+ <footer>
+     Kapcsolat: <a href="mailto:someone@example.com">
+     someone@example.com</a>
+ </footer>

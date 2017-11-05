@@ -1,10 +1,29 @@
 <div id="header" ng-controller="reszletekViewController">
-    <a href="#/!">
-        <button id="visszaButton">
-            Vissza
-        </button>
-    </a>
+    <div class="header_container">
+        <a href="#/!">
+            <button id="visszaButton">
+                Vissza
+            </button>
+        </a>
+    <h1>{{funyiro.megnevezes}}</h1>
+    </div>
 </div>
-<div id="termekDiv">
-    Itt lesz a termék
+<div id="termekDiv" ng-controller="reszletekViewController">
+    <div class="reszletekKep"><img class="funyiroReszletekKep" src="{{funyiro.image.src}}" width=""></div>
+    <div class="reszletekAdatok">
+        <ul style="margin-left: 15%;">
+            <li class="elemAdatokListaElem"><p class="param1">Márka:</p>
+                <p class="param2">{{funyiro.marka}}</p></li>
+            <li class="elemAdatokListaElem"><p class="param1">Típus:</p>
+                <p class="param2">{{funyiro.type}}</p></li>
+            <li class="elemAdatokListaElem"><p class="param1">Vágószélesség:</p>
+                <p class="param2">{{funyiro.vagoszelesseg}} cm</p></li>
+            <li class="elemAdatokListaElem">
+                <p class="param1">Hengerűrtartalom:</p>
+                <p class="param2">{{funyiro.cc}} ccm</p></li>
+            <li class="elemAdatokListaElem"><p class="param1">Súly:</p>
+                <p class="param2">{{funyiro.suly}} kg</p></li>
+        </ul>
+    </div>
+    <div id="leiras">{{funyiro.leiras}}</div>
 </div>
