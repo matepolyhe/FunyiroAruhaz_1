@@ -57,5 +57,413 @@
     "type": "Fűkasza",
     "marka" : "Stihl",
     "suly" : 5,
-    "leiras" : "FS 55 motoros szegélynyíró kétkaros fogantyúval. Sokoldalú, motoros szegélynyíró kétkaros fogantyúval az ergonómikus munkához a magán kertekben. Hozzáillő vágóeszközzel használható gazos fű, nád és csalán vágásához is. Bevált technológia, környezetbarát motorral. "  }
+    "leiras" : "FS 55 motoros szegélynyíró kétkaros fogantyúval. Sokoldalú, motoros szegélynyíró kétkaros fogantyúval az ergonómikus munkához a magán kertekben. Hozzáillő vágóeszközzel használható gazos fű, nád és csalán vágásához is. Bevált technológia, környezetbarát motorral. "  },
+  {
+    "megnevezes": "MTD 46",
+    "image": {
+      "src": "Images/mtd-46.jpg",
+      "name": "MTD 46",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "MTD",
+    "suly" : 25,
+    "vagoszelesseg": 40,
+    "cc": 150,
+    "leiras" : "Benzinmotoros Alacsony fogyasztás Nagy teljesítmény 46 cm vágási szélesség Ajánlott terület: 1000 m2 Halk működés 6 féle magasságállítási lehetőség Masszív acélház 70 L-es fűgyűjtő "
+  },
+  {
+    "megnevezes": "ALKO Classic PA",
+    "image": {
+      "src": "Images/alko-classic-pa.jpg",
+      "name": "ALKO",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "ALKO",
+    "suly" : 40,
+    "vagoszelesseg": 45,
+    "cc": 160,
+    "leiras" : "Optimális gyűjtés- és vágás az aszimmetrikus házgeometriának a nagy kidobó nyílásnak köszönhetően Könnyen tisztítható műanyag gyűjtőzsák telítettség jelzővel Kerekenkénti magasság állítás Ergonomikus toló kar Golyóscsapágyazott, széles kerekek, amelyek stabil futást, hosszú élettartamot és gyepkímélő üzemmódot eredményeznek "
+  },
+  {
+    "megnevezes": "ALKO Classic SPA",
+    "image": {
+      "src": "Images/alko-classic-spa.jpg",
+      "name": "ALKO",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "ALKO",
+    "suly" : 45,
+    "vagoszelesseg": 50,
+    "cc": 170,
+    "leiras" : "Klasszikusan jó benzines fűnyíró széles skálájú felszereltséggel, vonzó áron "
+  },
+  {
+    "megnevezes": "ALKO Classic E",
+    "image": {
+      "src": "Images/alko-classic-e.jpg",
+      "name": "ALKO",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Elektromos",
+    "marka" : "ALKO",
+    "suly" : 12,
+    "vagoszelesseg": 35,
+    "leiras" : "Második generációs, továbbfejlesztett Turbo Universal motorral szerelt, könnyű és kompakt elektromos AL-KO fűnyíró. A magas fordulatszámú fűnyírómotor miatt jobb a fűnyírás minősége, és intenzitása. A fűnyíróház forma kialakítása miatt a kerekek külső széléig nyírja a füvet, falak mellett sem maradnak fűszálak. "
+  },
+  {
+    "megnevezes": "MTD Smart",
+    "image": {
+      "src": "Images/mtd-smart.jpg",
+      "name": "MTD",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "ALKO",
+    "suly" : 35,
+    "vagoszelesseg": 50,
+    "cc": 195,
+    "leiras" : "Az MTD SMART 51 BO benzinmotoros fűnyíró ideális eszköz a közepes nagyságú udvarok gyepének karbantartására, ugyan nem mulcsoz és nem gyűjt, de a fűnyírást kifogástalanul elvégzi. Mindenféle extra nélkül is egyszerű és hatékony."
+  },
+  {
+    "megnevezes": "McCulloch M46",
+    "image": {
+      "src": "Images/mcculloch.jpg",
+      "name": "mcculloch",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "McCulloch",
+    "suly" : 55,
+    "vagoszelesseg": 47,
+    "cc": 200,
+    "leiras" : "Közepes méretű fűnyíró, 46 cm vágási szélességgel, fűgyűjtővel. Erős szerkezet az acél vágóasztalnak köszönhetően. Egyszerű tisztítás a GARDENA víztömlő-csatlakozással"
+  },
+  {
+    "megnevezes": "Hecht 1000",
+    "image": {
+      "src": "Images/hecht1000.jpg",
+      "name": "Hecht",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Elektromos",
+    "marka" : "Hecht",
+    "suly" : 14,
+    "vagoszelesseg": 32,
+    "leiras" : "A Hecht 1000 Elektromos fűnyíró kisebb területek karbantartására alkalmas eszköz. Nagy teljesítményű turbómotorral ellátott, magas forgatónyomatékkal rendelkezik. Ergonomikus nyele van, melynek köszönhetően könnyebben dönthető és kényelmesebben tolható "
+  },
+  {
+    "megnevezes": "Bosch ARM",
+    "image": {
+      "src": "Images/bosch-arm.jpg",
+      "name": "Bosch",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Elektromos",
+    "marka" : "Bosch",
+    "suly" : 11,
+    "vagoszelesseg": 36,
+    "leiras" : "A Bosch fűnyíró könnyű és kompakt a kényelmes hordozhatóság és a problémamentes irányítás érdekében A Bosch Rotak 32 fűnyíró hatékony, mivel a gyepfésű tökéletesen levágja a gyepet a szélekig Kis súlyú, könnyen kezelhető és szállítható "
+  },
+  {
+    "megnevezes": "Hecht 5406",
+    "image": {
+      "src": "Images/hecht5406.jpg",
+      "name": "Hecht",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "Hecht",
+    "suly" : 13,
+    "vagoszelesseg": 33,
+    "cc": 150,
+    "leiras" : "Nagy, 40 literes szövet gyűjtődoboz biztosít elegendő helyet a levágott fű számára A fűnyírógépnek szilárd műanyag háza biztosítja a hosszú rozsdamentességet és tartósságot"
+  },
+  {
+    "megnevezes": "MTD DL",
+    "image": {
+      "src": "Images/mtd-dl.jpg",
+      "name": "MTD",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "MTD",
+    "suly" : 40,
+    "vagoszelesseg": 40,
+    "cc": 165,
+    "leiras" : "MTD DL 46 P gyűjtős fűnyíró halk működésű, kényelmes és könnyed munkavégzést garantáló MTD ThorX OHV motorral szerelték, mely kis fogyasztású. A 6 pozícióba állítható kar segít a vágásmagasság egyszerű, a feltételeknek megfelelő beállításában "
+  },
+  {
+    "megnevezes": "Husqvarna LC",
+    "image": {
+      "src": "Images/husqvarna-lc.jpg",
+      "name": "Husqvarna",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "Husqvarna",
+    "suly" : 33,
+    "vagoszelesseg": 40,
+    "cc": 130,
+    "leiras" : "Tolható fűnyíró széles, robusztus acél vágóasztallal. Két különböző vágási móddal használható; fűgyűjtés és BioClip(R) (mulcsozás). További jellemzői közé tartoznak a nagy hátsó kerekek az egyszerű irányíthatóságért és a különösen nagy fűgyűjtő. "
+  },
+  {
+    "megnevezes": "Fieldmann FZR",
+    "image": {
+      "src": "Images/fieldmann.jpg",
+      "name": "Field",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "Fieldmann",
+    "suly" : 60,
+    "vagoszelesseg": 50,
+    "cc": 220,
+    "leiras" : "A fűnyíró úgynevezett 4 az 1-ben rendszerrel van felszerelve. Ez a rendszer lehetővé teszi, hogy kiválassza, mi történjen a levágott fűvel. Lehet a kosárba gyűjteni, mulcsozni, oldalra dobni "
+  },
+  {
+    "megnevezes": "Hecht 1844",
+    "image": {
+      "src": "Images/hecht1844.jpg",
+      "name": "Hecht",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Elektromos",
+    "marka" : "Hecht",
+    "suly" : 10,
+    "vagoszelesseg": 33,
+    "leiras" : "Elektromos 1800 W nagyon erős elektromos TURBÓ motoros fűnyíró Ergonomikus nyéllel, mely által könnyebben dönthető és kényelmesebben irányítható A fűnyíróház fogantyúval van felszerelve, ez által könnyen lehet kézzel mozgatni- emelni "
+  },
+  {
+    "megnevezes": "Gude 461",
+    "image": {
+      "src": "Images/gude461.jpg",
+      "name": "gude",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "Gude",
+    "suly" : 38,
+    "vagoszelesseg": 42,
+    "cc": 149,
+    "leiras" : "Benzines fűnyíró, erős motorral. Gazdaságos fogyasztás. Porszórt acéllemez ház. Önjáró benzinmotoros fűnyíró 4-ütemű  OHV  motorrral Kiváló indítási tulajdonságokkal  "
+  },
+  {
+    "megnevezes": "MTD 46 BS",
+    "image": {
+      "src": "Images/mtd46bs.jpg",
+      "name": "MTD",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "MTD",
+    "suly" : 48,
+    "vagoszelesseg": 39,
+    "cc": 180,
+    "leiras" : "Az MTD 46 BS egy megbízható önjárós fűgyűjtős fűnyíró nagy, 70 literes fűgyűjtővel. Erős, acél késháza ellenáll a kőfelverődéseknek. A kerékmagasságot kerekenként állíthatja.  "
+  },
+  {
+    "megnevezes": "MTD 51 BC",
+    "image": {
+      "src": "Images/mtd51bc.jpg",
+      "name": "MTD",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "MTD",
+    "suly" : 40,
+    "vagoszelesseg": 50,
+    "cc": 190,
+    "leiras" : "Funkciók: oldalkidobás Késház anyaga: acél Vágómagasság (cm): 3.5-10 Magasságállítás: kerekenként 3 fokozat - kézi Kerekek ármérője (cm) elöl/hátul: 18/18 Mulcskészlet: nincs Standard tartozékok: deflektor Ajánlott felhasználás: Hobby "
+  },
+  {
+    "megnevezes": "Makita Elm",
+    "image": {
+      "src": "Images/makita-elm.jpg",
+      "name": "Maki",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Elektromos",
+    "marka" : "Makita",
+    "suly" : 9,
+    "vagoszelesseg": 35,
+    "leiras" : "Optimális kis kertekbe Kényelmes, ergonomikus kialakítás, jó manőverezhetőség 5 fokozatban állítható vágásmagasság Könnyen összecsukható kormány, könnyű tárolhatóság Masszív, tartós kerekek "
+  },
+  {
+    "megnevezes": "Hecht 543",
+    "image": {
+      "src": "Images/hecht543.jpg",
+      "name": "Hecht",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "Hecht",
+    "suly" : 36,
+    "vagoszelesseg": 43,
+    "cc": 155,
+    "leiras" : "A kés a késtartóra központosító, elfordulásgátlóval van rögzítve, ami akadályba ütközéskor a kés elcsúszását okozza. A kés rögzítésének az a megoldása sok esetben megelőzheti a motor sérülését vagy a tengely elferdülését. A vágási magasságot 25-től 75 mm-ig lehet állítani, hét pozícióban.  "
+  },
+  {
+    "megnevezes": "Fieldmann FZR",
+    "image": {
+      "src": "Images/fieldmann-fzr.jpg",
+      "name": "Fieldmann",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "Fieldmann",
+    "suly" : 40,
+    "vagoszelesseg": 42,
+    "cc": 185,
+    "leiras" : "Önjáró benzines fűnyíró Remek minőségű anyagokból Nemesacél váz Masszív vágókés Praktikus, nagy hulladéktárolóval Jelzi, ha megtelt a kosár  "
+  },
+  {
+    "megnevezes": "Hecht 1233",
+    "image": {
+      "src": "Images/hecht1233.jpg",
+      "name": "Hecht",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Elektromos",
+    "marka" : "Hecht",
+    "suly" : 10,
+    "vagoszelesseg": 36,
+    "leiras" : "Az egyszerű kezelésének és kompakt méreteinek köszönhetően ez a fűnyíró nagyon közkedvelt a nyaralókban, kiskertekben és minden olyan helyen, ahol kis területen kell füvet vágni. Az elektromos motornak köszönhetően szinte alig igényel karbantartást. "
+  },
+  {
+    "megnevezes": "McCulloch M51",
+    "image": {
+      "src": "Images/mcculloch-m51.jpg",
+      "name": "McCulloch",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "McCulloch",
+    "suly" : 33,
+    "vagoszelesseg": 44,
+    "cc": 175,
+    "leiras" : "Mulcsozáskor a nyesedéket apróra vágva visszajuttatja a fűre, ezáltal természetes zöldtrágyaként hasznosítható. Robusztus kialakítás, acél vágóasztallal.  "
+  },
+  {
+    "megnevezes": "Hecht 547",
+    "image": {
+      "src": "Images/hecht547.jpg",
+      "name": "Hecht",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "Hecht",
+    "suly" : 41,
+    "vagoszelesseg": 48,
+    "cc": 199,
+    "leiras" : "Nagy, 65 literes szövet gyűjtődoboz biztosít elegendő helyet a levágott fű számára. A fűnyírógépnek  szilárd fémváza biztosítja a hosszú élettartamot és tartósságot. A fűnyíró ajánlott kaszálás terület nagysága 1000 m2. Egy mozdulattal összecsukható . "
+  },
+  {
+    "megnevezes": "MTD 46 B",
+    "image": {
+      "src": "Images/mtd46b.jpg",
+      "name": "ALKO",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "MTD",
+    "suly" : 35,
+    "vagoszelesseg": 40,
+    "cc": 159,
+    "leiras" : "Klasszikusan jó benzines fűnyíró széles skálájú felszereltséggel, vonzó áron "
+  },
+  {
+    "megnevezes": "ALKO Silver",
+    "image": {
+      "src": "Images/alkosilver.jpg",
+      "name": "ALKO",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Eletromos",
+    "marka" : "ALKO",
+    "suly" : 15,
+    "vagoszelesseg": 30,
+    "leiras" : "Kerékcsapágyazás: Nincs, Mulcskészlet: Standard tartozék, Standard tartozékok: Fűgyűjtő, Hangnyomás (dB(A)): 96 dB "
+  },
+  {
+    "megnevezes": "Hecht1863",
+    "image": {
+      "src": "Images/hecht1863.jpg",
+      "name": "Hecht",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Elektromos",
+    "marka" : "Hecht",
+    "suly" : 11,
+    "vagoszelesseg": 39,
+    "leiras" : "ajánlott terület  [m2]:    1200,    vágási magasság  [mm]:   25-75,   kerekek első/hátsó átmérője  [coll]:  8/11  "
+  },
+  {
+    "megnevezes": "ALKO Highline",
+    "image": {
+      "src": "Images/alko-highline.jpg",
+      "name": "ALKO",
+      "hOffset": 75,
+      "vOffset": 75,
+      "alignment": "center"
+    },
+    "type": "Benzines",
+    "marka" : "ALKO",
+    "suly" : 45,
+    "vagoszelesseg": 50,
+    "cc": 196,
+    "leiras" : "AL-KO Highline 526 VS-I Benzines önjáró fűnyíró, ÖNINDÍTÓVALAz AL-KO Highline fűnyírók a legmagasabb minőségű termékek, számtalan műszaki újdonsággal és kényelmi funkcióval.  "
+  }
 ]
